@@ -1,5 +1,8 @@
 header {
-  margin: 87px 120px 0 120px;
+  width: 95%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 87px;
 }
 nav {
   justify-content: space-between;
@@ -49,4 +52,34 @@ nav {
   font-weight: bold;
 }
 /* banner end */
+.sponsors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
 /* header end */
+/* popular collection */
+.popular {
+  max-width: 1060px;
+  width: 73%;
+  margin: 0 auto;
+}
+.popular h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.popular-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.hide {
+  display: none !important;
+}
