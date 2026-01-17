@@ -1,11 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+header {
+  margin: 87px 120px 0 120px;
 }
-li{
-    list-style: none;
+nav {
+  justify-content: space-between;
+  margin-bottom: 80px;
 }
-a{
-    text-decoration: none;
+.menus {
+  justify-content: space-around;
+  width: 35%;
+  gap: 34px;
+  align-items: center;
 }
+ul {
+  gap: 34px;
+}
+nav h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+nav {
+  font-size: 16px;
+  font-weight: 600;
+}
+/* navbar end */
+.banner {
+  gap: 133px;
+  align-items: center;
+}
+.banner-content h1 {
+  font-size: 52px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.banner-content p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.btn {
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 40px;
+}
+.btn a {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* banner end */
+/* header end */

@@ -4,29 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Influencer</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font awesome -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./resonsive.css" />
+    <link rel="stylesheet" href="./shared-style.css" />
   </head>
   <body>
     <header>
-        <nav>
-            <h3>Influencer products</h3>
-            <ul>
-                <li><a href="#">Home</a></li> 
-                <li><a href="#">Products</a></li> 
-                <li><a href="#">Sign up</a></li> 
-                <li><a href="#">Log In</a></li> 
-            </ul>
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
-        </nav>
+      <nav class="display-flex primary-colour">
+        <h3>Influencer products</h3>
+        <div class="menus display-flex">
+          <ul class="display-flex">
+            <li><a class="primary-colour" href="#">Home</a></li>
+            <li><a class="primary-colour" href="#">Products</a></li>
+            <li><a class="primary-colour" href="#">Sign up</a></li>
+            <li><a class="primary-colour" href="#">Log In</a></li>
+          </ul>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+      </nav>
+      <div class="banner display-flex">
+        <div class="banner-content">
+          <h1 class="primary-colour">Start your Journey as Influencer</h1>
+          <p class="primary-colour">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem
+            vestibulum sed scelerisque eros. Lectus faucibus.
+          </p>
+          <button class="btn"><a href="#">Preebook now</a> <i style="color: white;" class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="banner-image">
+            <img src="./images/main-camera.png" alt="">
+        </div>
+      </div>
     </header>
     <!-- header end -->
   </body>
