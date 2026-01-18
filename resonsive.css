@@ -52,4 +52,15 @@
   .popular {
     width: 50%;
   }
+  .featured {
+    flex-direction: column-reverse;
+    max-width: 100%;
+    text-align: center;
+  }
+  .featured-content .btn {
+    margin-left: auto;
+  }
+  footer {
+    width: 100%;
+  }
 }
